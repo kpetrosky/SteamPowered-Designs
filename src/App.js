@@ -1,34 +1,32 @@
-// App.js
-
 import React from 'react';
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import VerticalNavbar from './components/VerticalNavBar';
 import Home from './components/pages/Home';
+import Portfolio from './components/pages/Portfolio'; // Adjust the import path based on your directory structure
 import Services from './components/pages/Services';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
-import Footer from './components/Footer';
-import VerticalNavBar from './components/VerticalNavBar';
-import './components/VerticalNavBar.css'; // Import the CSS file for VerticalNavBar
-
+import About from './components/pages/About'; // Adjust the import path based on your directory structure
+import Contact from './components/pages/Contact'; // Adjust the import path based on your directory structure
 
 function App() {
   return (
-    <Router> {/* Wrap your components with the Router */}
-      <div className="App">
-        <VerticalNavBar />
+    <div className="App">
+      <Router>
         <Header />
-        <main>
-          <Home />
-          <Services />
-          <Portfolio />
-          <Contact />
-        </main>
-        <Footer />
-      </div>
-    </Router>
+        <div className="content-wrapper">
+          <VerticalNavbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+    </div>
   );
 }
 
 export default App;
+
