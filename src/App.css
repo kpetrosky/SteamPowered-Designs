@@ -1,22 +1,15 @@
-
 body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
   background-image: url('../public/19420.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
-
-/* App.css */
-
-
-  margin: 0; /* Reset default margin */
-  padding: 0; /* Reset default padding */
+}
+.App {
   display: flex;
-  justify-content: center; /* Align content to the left by default */
-  transition: margin 0.3s ease-in-out; /* Add smooth transition */
+  justify-content: center;
+  transition: margin 0.3s ease-in-out;
   margin-left: 25%;
 }
-
-/* Add a class to control the body offset */
-/* .body-offset {
-  margin-left: 400%; /* Adjust the value as needed */
