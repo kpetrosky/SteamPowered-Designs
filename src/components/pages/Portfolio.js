@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css'; // Import your CSS file for styling
+import classroom from "../images/classroom.png";
 
 // import project1 from '../../images/project1.png'; // Import your project images
 // import apiQuiz from '../../images/apiQuiz.png';
@@ -7,6 +8,17 @@ import './Portfolio.css'; // Import your CSS file for styling
 // import mvc from '../../images/mvc.png';
 
 const projects = [
+  {id: 1,
+    
+    name: 'Academy of Math and Science Tech Teacher Website',
+    description: 'Developing a classroom website is a dynamic and interactive process aimed at creating a virtual platform that supports educational activities and enhances the learning experience for students and teachers alike. This website serves as a central hub where teachers can share course materials, assignments, resources, and announcements, while students can access these materials, participate in discussions, submit assignments, and engage in collaborative projects.',
+    repo: 'https://github.com/kpetrosky/my-class-website',
+    deployed: 'https://dry-mesa-29236-b7748dc788e2.herokuapp.com/',
+    src: classroom,
+    toolsUsed: '',
+  
+  },
+
   {
     id: 1,
     name: 'Daily Distractions',

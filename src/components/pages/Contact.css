@@ -1,3 +1,5 @@
+/* Contact.css */
+
 .contact {
     padding: 40px;
     background-color: #f4f4f4;
@@ -21,39 +23,38 @@
   
   .contact-form {
     text-align: left;
+    margin-top: 40px;
   }
   
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-size: 18px;
+  .contact-form label {
+    font-size: 16px;
     margin-bottom: 5px;
   }
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
-  textarea {
+  .contact-form textarea {
     resize: vertical;
   }
   
-  button {
+  .contact-form button {
     background-color: #007bff;
     color: #fff;
-    border: none;
     padding: 10px 20px;
-    font-size: 18px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
   }
   
