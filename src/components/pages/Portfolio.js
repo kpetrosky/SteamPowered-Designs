@@ -20,7 +20,7 @@ const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     name: 'Daily Distractions',
     description: 'Welcome to Daily Distractions...',
     repo: 'https://github.com/AlexWatabe9/DailyDistractions',
@@ -30,7 +30,7 @@ const projects = [
     toolsUsed: '',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Web APIs Code Quiz',
     description: 'Code Quiz is an interactive web application...',
     repo: 'https://github.com/kpetrosky/web-apis-application-code-quiz',
@@ -40,7 +40,7 @@ const projects = [
     toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON, Heroku',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Progressive-Web-Applications-PWA-Text-Editor',
     description: 'Launching the text editor application from...',
     repo: 'https://github.com/kpetrosky/Progressive-Web-Applications-PWA-application-Text-Editor',
@@ -50,7 +50,7 @@ const projects = [
     toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON (JavaScript Object Notation)',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Full stack MVC with handlebars, express, SQL',
     description: 'In the world of technology, writing about...',
     repo: 'https://github.com/kpetrosky/MVC-Model-View-Controller-MVC-application-Tech-Blog',
