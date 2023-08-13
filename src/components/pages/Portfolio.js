@@ -1,6 +1,10 @@
 import React from 'react';
 import './Portfolio.css'; // Import your CSS file for styling
 import classroom from "../images/classroom.png";
+import DailyDistractions from "../images/dailyDistractions.png";
+import apiQuiz from "../images/apiQuiz.png"
+import pwa from "../images/pwa.png"
+import mvc from "../images/mvc.png"
 
 // import project1 from '../../images/project1.png'; // Import your project images
 // import apiQuiz from '../../images/apiQuiz.png';
@@ -25,7 +29,7 @@ const projects = [
     description: 'Welcome to Daily Distractions...',
     repo: 'https://github.com/AlexWatabe9/DailyDistractions',
     deployed: 'https://alexwatabe9.github.io/DailyDistractions/',
-    // src: project1,
+    src: DailyDistractions,
     backgroundColor: '#e5446dff',
     toolsUsed: '',
   },
@@ -35,7 +39,7 @@ const projects = [
     description: 'Code Quiz is an interactive web application...',
     repo: 'https://github.com/kpetrosky/web-apis-application-code-quiz',
     deployed: 'https://kpetrosky.github.io/web-apis-challenge-code-quiz/',
-    // src: apiQuiz,
+    src: apiQuiz,
     backgroundColor: '#ff9474ff',
     toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON, Heroku',
   },
@@ -45,7 +49,7 @@ const projects = [
     description: 'Launching the text editor application from...',
     repo: 'https://github.com/kpetrosky/Progressive-Web-Applications-PWA-application-Text-Editor',
     deployed: 'https://lit-sands-84115.herokuapp.com/',
-    // src: pwa,
+    src: pwa,
     backgroundColor: '#cbc0d3ff',
     toolsUsed: 'Tools: Express.js, Node.js, JavaScript, JSON (JavaScript Object Notation)',
   },
@@ -55,7 +59,7 @@ const projects = [
     description: 'In the world of technology, writing about...',
     repo: 'https://github.com/kpetrosky/MVC-Model-View-Controller-MVC-application-Tech-Blog',
     deployed: 'https://frozen-lake-62666.herokuapp.com/',
-    // src: mvc,
+    src: mvc,
     backgroundColor: '#a74482ff',
     toolsUsed: 'Express.js, APIs, Handlebars.js, Sequelize, Heroku.',
   },
