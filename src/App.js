@@ -7,6 +7,8 @@ import Portfolio from './components/pages/Portfolio'; // Adjust the import path 
 import Services from './components/pages/Services';
 // Adjust the import path based on your directory structure
 import Contact from './components/pages/Contact'; // Adjust the import path based on your directory structure
+import About from "../src/components/pages/About";
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <VerticalNavbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path='/about' element={<About />} /> 
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />

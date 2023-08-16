@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  /* background-image: url('../src/components/images/25662.jpg') */
 }
 .App {
   display: flex;
@@ -13,9 +14,6 @@ body {
   transition: margin 0.3s ease-in-out;
   margin-left: 25%;
   
-}
-.home{
-  background-image: url('/19420.png')
 }
 /* Contact.css */
 .contact {

@@ -6,8 +6,10 @@ const Contact = () => {
   return (
     <section className="contact">
       <div className="contact-content">
-        <h2>Contact Us</h2>
-        <p>We'd love to hear from you. Reach out: SteamPowered.Designs@gmail.com</p>
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you.</p> 
+          <p>
+          Reach out: SteamPowered.Designs@gmail.com</p>
       </div>
       <MessageBoard /> {/* Add the MessageBoard component */}
     </section>

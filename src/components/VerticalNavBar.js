@@ -11,6 +11,11 @@ const VerticalNavBar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/about" activeClassName="active"> {/* Use lowercase "portfolio" here */}
+            About me
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/portfolio" activeClassName="active"> {/* Use lowercase "portfolio" here */}
             Portfolio
           </NavLink>
