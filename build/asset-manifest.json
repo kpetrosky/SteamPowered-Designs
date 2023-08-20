@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.087afc68.css",
+    "main.js": "/static/js/main.93ef8eda.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/classroom.png": "/static/media/classroom.e14d8bd669cad02ee063.png",
+    "static/media/mvc.png": "/static/media/mvc.dc2888c77453ea7e75b5.png",
+    "static/media/360_F_77987357_tPP7deHAIp9RjE078fs7Dva8OevgtR7d.jpg": "/static/media/360_F_77987357_tPP7deHAIp9RjE078fs7Dva8OevgtR7d.9b9737c991f3d1ceb074.jpg",
+    "static/media/apiQuiz.png": "/static/media/apiQuiz.75b4ad0877d21cd6f704.png",
+    "static/media/dailyDistractions.png": "/static/media/dailyDistractions.072e7fe6885a604d2b2c.png",
+    "static/media/pwa.png": "/static/media/pwa.f430a651136273f7ea0f.png",
+    "static/media/elephant.jpg": "/static/media/elephant.edd318bd6032acc1faec.jpg",
+    "static/media/butterfly 2.jpg": "/static/media/butterfly 2.494df6e44e9fde984c10.jpg",
+    "static/media/butterfly 1.jpg": "/static/media/butterfly 1.db75afa0a9b1ab28d4ea.jpg",
+    "index.html": "/index.html",
+    "main.087afc68.css.map": "/static/css/main.087afc68.css.map",
+    "main.93ef8eda.js.map": "/static/js/main.93ef8eda.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.087afc68.css",
+    "static/js/main.93ef8eda.js"
+  ]
+}
