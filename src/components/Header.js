@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="branding">
-        <h1>SteamPowered Designs</h1>
-        <p>Beautiful Web designs by Krystal Petrosky</p>
+        <h1>SteamPowered Web designs by Krystal</h1>
+        <p>Welcome!</p>
       </div>
       {/* Add navigation links or other header content */}
     </header>

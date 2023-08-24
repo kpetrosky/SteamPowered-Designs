@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <section className="home">
         <div className="home-content">
-          <h2>Welcome to Steamliowered Butterfly Web Designs</h2>
+          <h2>Welcome to SteamPowered Web Designs By Krystal</h2>
           <p>Your Designer in Crafting Beautiful and Functional Websites</p>
           <p>
             <img src={image1} alt="Krystal Petrosky" className="paragraph-image" />
