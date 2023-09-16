@@ -1,17 +1,17 @@
 import React from 'react';
 import './About.css'; // Import your CSS file for styling
-import image1 from '../images/ben.jpg';
-import image2 from '../images/butterfly 2.jpg';
-import image3 from '../images/snail.jpg';
-import image4 from '../images/butterfly 1.jpg';
-import image5 from '../images/elephant.jpg';
+import image1 from '../images/sun2.png';
+import image2 from '../images/sun2.png';
+import image3 from '../images/sun2.png';
+import image4 from '../images/sun2.png';
+import image5 from '../images/sun2.png';
 
 const Home = () => {
   return (
     <div>
       <section className="home">
         <div className="home-content">
-          <h2>Welcome to SteamPowered Web Designs By Krystal</h2>
+          <h2>Welcome to Arizona Sunrise Web Designs By Krystal</h2>
           <p>Your Designer in Crafting Beautiful and Functional Websites</p>
           <p>
             <img src={image1} alt="Krystal Petrosky" className="paragraph-image" />

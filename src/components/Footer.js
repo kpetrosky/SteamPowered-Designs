@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2023 SteamPowered Designs. All rights reserved.</p>
+        <p>&copy; 2023 Welcome to Sonoran Sunrise Web Designs By Krystal. All rights reserved.</p>
       </div>
       {/* Add social media links, contact information, or other footer content */}
     </footer>

@@ -1,13 +1,13 @@
 import React from 'react';
 import './Home.css'; // Import your CSS file for styling
-import image1 from '../images/360_F_77987357_tPP7deHAIp9RjE078fs7Dva8OevgtR7d.jpg'; // Import your profile image
+import image1 from '../images/cactusWithSun.jpg'; // Import your profile image
 
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home-content">
-        <h2>Welcome to SteamPowered Butterfly Web Designs</h2>
+        <h2>Welcome to Arizona Sunrise Web Designs By Krystal</h2>
         <p>Your Designer in Crafting Beautiful and Functional Websites</p>
         <p>
           At Steampowered Butterfly Web Designs, I specialize in creating stunning and functional websites that cater to your unique needs. Whether you're an individual looking for a personal portfolio site or a business seeking to establish a strong online presence, I'm here to bring your vision to life.

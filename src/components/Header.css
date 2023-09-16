@@ -1,11 +1,11 @@
 /* Header.css */
 
 .header {
-    background-color: #102B3F;
-    color: white;
-    padding: 1rem;
+    background-color: #faf5f5;
+    color: rgb(223, 162, 48);
+    padding: 5rem;
     text-align: center;
-    background-image: url('../components/images/25662.jpg');
+    background-image: url('../components/images/saquaro2.png');
     background-size: cover; /* Adjust the background size as needed */
     background-position: center center;
     background-attachment: fixed;
